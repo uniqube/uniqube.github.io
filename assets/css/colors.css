@@ -1,0 +1,11 @@
+:root {
+    --primary : #8785a2;
+    --secondary : #57846d;
+    --dark : #252525;
+    --white : #fff;
+    --black : #000;
+    --danger : rgb(185, 0, 0);
+    --success : rgb(31, 118, 0);
+    --yellow : rgb(255, 200, 0);
+    --blue : rgb(0, 0, 134);
+}
