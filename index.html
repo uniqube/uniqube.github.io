@@ -3,32 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#578468">
-    <title>UNIQUBE</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Uniqube Solutions - Innovative Tech Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-    
-      <script>
-      !function(){var e="rest.happierleads.com/v3/script?clientId=hqNionTqjTzjjAsbB6LKBx&version=4.0.0",
-      t=document.createElement("script");window.location.protocol.split(":")[0];
-      t.src="https://"+e;var c=document.getElementsByTagName("script")[0];
-      t.async = true;
-      t.onload = function(){ new Happierleads.default };
-      c.parentNode.insertBefore(t,c)}();
-      </script>
-     
+        /* Header styles */
+        header {
+            background-color: #8785A2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        /* Main content styles */
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .services, .about, .clients {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .services div, .clients div {
+            flex: 1 1 300px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .services img, .clients img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-us, .terms-conditions {
+            margin-top: 20px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .services div, .clients div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/images/logo_vertical.png" alt="">
-        </div>
 
-        <div class="tag">
-            Make Your Design more clear <br>
-            with our Design Pattern
-        </div>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Uniqube Solutions</h1>
+        <p>Innovative Solutions for a Digital Future</p>
     </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>At Uniqube Solutions, we are passionate about delivering cutting-edge digital solutions that transform your business. We specialize in building websites, web apps, and mobile apps that cater to your business needs. Our vision is to develop products that drive people toward a better way of living by making work easier and more efficient.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+        <div>
+            <img src="https://via.placeholder.com/300" alt="Website Development">
+            <h3>Website Development</h3>
+            <p>We build responsive, user-friendly websites that showcase your business online and attract customers.</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/300" alt="Mobile App Development">
+            <h3>Mobile App Development</h3>
+            <p>Our team designs and develops mobile apps for iOS and Android to bring your business to your customers' fingertips.</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/300" alt="Web App Solutions">
+            <h3>Web App Solutions</h3>
+            <p>We create powerful web applications tailored to streamline your business processes and improve productivity.</p>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients">
+        <h2>Our Clients</h2>
+        <div>
+            <img src="https://via.placeholder.com/300" alt="Client 1">
+            <h3>Client 1</h3>
+            <p>"Uniqube Solutions helped us build a robust web application that greatly improved our business operations."</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/300" alt="Client 2">
+            <h3>Client 2</h3>
+            <p>"Thanks to Uniqube Solutions, we now have a stunning website that has attracted more customers to our business."</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/300" alt="Client 3">
+            <h3>Client 3</h3>
+            <p>"The mobile app they developed for us has been a game-changer, allowing us to reach a wider audience."</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <p>Have a project in mind? Reach out to us!</p>
+        <p>Email: <a href="mailto:support@uniqube.com">support@uniqube.com</a></p>
+        <p>Phone: +91 1234567890</p>
+    </section>
+
+    <!-- Terms and Conditions Section -->
+    <section class="terms-conditions">
+        <h2>Terms & Conditions</h2>
+        <p>By using our services, you agree to our <a href="#terms">terms and conditions</a>. Please review them carefully.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Uniqube Solutions. All rights reserved.</p>
+        <p>
+            <a href="#contact">Contact Us</a> |
+            <a href="#terms">Terms & Conditions</a>
+        </p>
+    </footer>
+
 </body>
 </html>
